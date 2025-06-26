@@ -30,10 +30,15 @@ conda install -c conda-forge parallel
 ```bash
 # Clone the utter-project fork of fairseq
 git clone https://github.com/utter-project/fairseq.git
+cd fairseq
+
+# Pin to the desired commit
+git checkout 81b8b7cd1005470be0e3474ccbda0a091a268b54
 
 # Install in editable mode without pulling other dependencies
-cd fairseq
 pip install -e . --no-deps
+
+# Return to project root
 cd ..
 ```
 
@@ -151,7 +156,7 @@ The `adapted_from_facebookreaserch` subfolder has [Attribution-NonCommercial 4.0
 Because this source code was adapted from the facebookresearch and speechbrain, the whole project follows  
 the [Attribution-NonCommercial 4.0 International License](https://github.com/nii-yamagishilab/SSL-SAS/blob/main/adapted_from_facebookresearch/LICENSE).
 
-Copyright (c) 2022, Yamagishi Laboratory, National Institute of Informatics.
+Copyright (c) 2025, Yamagishi Laboratory, National Institute of Informatics.
 All rights reserved.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
