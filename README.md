@@ -1,5 +1,5 @@
 # Mitigating Language Mismatch in SSL-Based Speaker Anonymization
-This repository contains training codes of the paper
+This repository contains training codes of the Interspeech 2025 paper
 [Mitigating Language Mismatch in SSL-Based Speaker Anonymization]()
 by Zhe Zhang, Wen-Chin Huang, Xin Wang, Xiaoxiao Miao, and Junichi Yamagishi
 
@@ -59,7 +59,7 @@ bash scripts/download_pretrained_models.sh
 
 This script performs the following steps:
 
-1. Downloads an archive (`pretrained_models_anon_xv.tar.gz`) from Zenodo containing the anonymization models.
+1. Downloads an archive (`pretrained_models_anon_xv.tar.gz`) from [a Zenodo repo containing the anonymization models](https://zenodo.org/records/6529898).
 2. Extracts the archive into `pretrained_models_anon_xv/`.
 3. Within that directory, creates `pretrained_models_anon_xv/mhubert/` and downloads:
 
@@ -127,13 +127,13 @@ For anonymization usage, we refer the readers to the following resources:
 If you encounter
 
 ```
-File "/home/ubuntu/miao/SSL-SAS/venv/lib/python3.8/site-packages/speechbrain/utils/profiling.py", line 11, in <module>
+File "~/venv/lib/python3.8/site-packages/speechbrain/utils/profiling.py", line 11, in <module>
     from torch.autograd.profiler_util import (  # pytorch v1.10.1
 ModuleNotFoundError: No module named 'torch.autograd.profiler_util'
 ```
 or/and
 ```
-File "/home/ubuntu/miao/SSL-SAS/venv/lib/python3.8/site-packages/speechbrain/utils/profiling.py", line 527, in <module>
+File "~/venv/lib/python3.8/site-packages/speechbrain/utils/profiling.py", line 527, in <module>
     a: EventList, b: EventList, filter_by: str = "count",
 NameError: name 'EventList' is not defined
 ```
