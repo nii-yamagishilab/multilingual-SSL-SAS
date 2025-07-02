@@ -1,6 +1,6 @@
 # Mitigating Language Mismatch in SSL-Based Speaker Anonymization
 This repository contains training codes of the Interspeech 2025 paper
-[Mitigating Language Mismatch in SSL-Based Speaker Anonymization]()
+[Mitigating Language Mismatch in SSL-Based Speaker Anonymization](https://arxiv.org/abs/2507.00458)
 by Zhe Zhang, Wen-Chin Huang, Xin Wang, Xiaoxiao Miao, and Junichi Yamagishi
 
 **Audio demos:** https://nii-yamagishilab.github.io/multilingual-SSL-SAS-samples/
